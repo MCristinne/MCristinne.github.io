@@ -1,3 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Inconsolata&family=Quicksand&display=swap');
+
+
+:root {
+    --main-text-color: #FFD700;
+    --header-background-color: #424857;
+    --body-color: #a8aebd;
+    --body-text: #fff700;
+    --text-shape: 'Quicksand', 'sans-serif';
+    --banner-text: 'Cinzel Decorative', 'sans-serif';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+body {
+    position: relative;
+    top: 10px;
+    border-radius: 30px;
+    background-color: var(--body-color);
+
+}
+header{
+    height: 70px;
+    width: 95%;
+    margin: auto;
+    background-color: var(--header-background-color);
+    background-size: contain;
+    display: flex;
+    color: var(--main-text-color);
+    justify-content: space-between;
+    align-items: center;
+    border: var(--main-text-color) solid 1px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.logo {
+    position: relative;
+    left: 15px;
+    height:70px;
+    background-size: contain;
+    
+}
+nav{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav div a {
+    color:var(--body-text);
+    font-family: var(--text-shape)
+}
+.nav-div {
+    width: 30%;
+    height: 100%;
+    border: var(--main-text-color) solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-div:hover {
+    background-color: var(--main-text-color);
+    color: var(--header-background-color)
+}
+
+main {
+    position: relative;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.presentation {
+    background-color: #99a0b2;
+    height: 300px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: end;
+}
+.banner {
+    background-size: contain;
+    height: 100%;
+
+}
+.projects {
+    margin: auto;
+}
 h1 {
-  color: blue;
+    color: var(--main-text-color);
+    font-size: 72px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--banner-text);
+    position: relative;
+    top: 10px;
+    left: 10px;
+  }
+.h1 {
+    position: relative;
+    width: 135px;
+    height: 135px;
+    border:#FFD700 solid 4px;
+    border-radius: 50%;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.title-presertation {
+    display: flex;
+    flex-direction: row;
+}
+h2{
+    color: var(--main-text-color);
+    font-size: 72px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--text-shape);
+    position: relative;
+    bottom: 10px;
+}
+h3 {
+    color: var(--header-background-color) ;
+    font-family: var(--text-shape);
+}
+p {
+    color:antiquewhite;
+    font-family: var(--text-shape);
+}
+
+.projects a {
+    font-family: var(--text-shape);
+    color: #424857;
+}
+
+footer{
+    height: 70px;
+    width: 95%;
+    margin: auto;
+    background-color: var(--header-background-color);
+    background-size: contain;
+    display: flex;
+    color: var(--main-text-color);
+    justify-content: space-between;
+    align-items: center;
+    border: var(--main-text-color) solid 1px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
