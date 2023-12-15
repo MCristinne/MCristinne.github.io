@@ -3,7 +3,7 @@
 :root {
     --main-text-color: #FFD700;
     --header-background-color: #141562;
-    --body-color: #a8c0d8;
+    --body-color: #eef6ff;
     --body-text: #FFD700;
     --text-shape: 'Geologica', 'sans-serif';
     --nav-text: 'Geologica', 'sans-serif';
@@ -13,7 +13,7 @@
     --banner-background-two: #450887;
     --banner-background-three: #1a3f96;
     --banner-background-four: #001331;
-    --hypertext-color: #ef4f54;
+    --hypertext-color: #c4282d;
 }
 
 * {
@@ -196,6 +196,7 @@ footer{
     border: var(--main-text-color) solid 1px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+
 }
 
 footer nav {
