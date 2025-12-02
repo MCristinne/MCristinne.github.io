@@ -1,1 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylesheet.css">
+    <title>Projetos C - Mayra Cristinne</title>
+    <meta name="description" content="Projetos C desenvolvidos por Mayra Cristinne">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="../MC-logo.png" alt="Logo Mayra Cristinne" class="logo">
+        
+            <!-- Checkbox hack para mobile -->
+            <input type="checkbox" id="menu-toggle-check" style="display: none;">
+        
+            <label for="menu-toggle-check" class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav id="nav01">
+                <ul id="mainMenu" class="menu">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../projects.html">Projetos</a></li>
+                    <li><a href="../contacts.html">Contato</a></li>
+                    <li class="dropdown">
+                    <a href="#">☰ ▾</a>
+                        <ul class="dropdown-content">
+                            <li><a href="../articles.html">Artigos</a></li>
+                            <li><a href="../education.html">Formação</a></li>
+                            <li><a href="../workExperience.html">Experiências Anteriores</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <nav id="nav02">
+                <ul id="mainMenu" class="menu">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../projects.html">Projetos</a></li>
+                    <li><a href="../articles.html">Artigos</a></li>
+                    <li><a href="../education.html">Formação</a></li>
+                    <li><a href="../workExperience.html">Experiências Anteriores</a></li>
+                    <li><a href="../contacts.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Projetos C</h1>
+                <p>DLinguagem de programação estruturada, compilada e de baixo nível. Considerada a base para muitas outras linguagens.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Ponteiros e gerenciamento de memória</span>
+                    <span class="tech-tag">Estruturas de dados (listas, pilhas, filas)</span>
+                    <span class="tech-tag">Alocação dinâmica de memória</span>
+                    <span class="tech-tag">Manipulação de arquivos</span>
+                    <span class="tech-tag">Estruturas (struct) e uniões</span>
+                    <span class="tech-tag">Recursividade</span>
+                    <span class="tech-tag">Operações bit a bit</span>
+                    <span class="tech-tag">Compilação e debugging com GDB</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">Meus Projetos</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            Conversor de Moedas
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Conversor Financeiro</h3>
+                            <p class="project-description">Aplicação para conversão de moedas em tempo real usando API de cotações.</p>
+                            <div class="project-features">
+                                <h4>Funcionalidades:</h4>
+                                <ul>
+                                    <li>Cotações em tempo real</li>
+                                    <li>Múltiplas moedas</li>
+                                    <li>Histórico de conversões</li>
+                                    <li>Interface intuitiva</li>
+                                </ul>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-btn btn-primary">Ver Demo</a>
+                                <a href="#" class="project-btn btn-secondary">Código Fonte</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2 class="section-title">Habilidades em C</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>JavaScript Básico</h3>
+                        <div class="skill-list">
+                            <span class="skill-item">ES6+ Syntax</span>
+                            <span class="skill-item">DOM Manipulation</span>
+                            <span class="skill-item">Event Handling</span>
+                            <span class="skill-item">Functions</span>
+                            <span class="skill-item">Arrays & Objects</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>JavaScript Avançado</h3>
+                        <div class="skill-list">
+                            <span class="skill-item">Async/Await</span>
+                            <span class="skill-item">Promises</span>
+                            <span class="skill-item">APIs REST</span>
+                            <span class="skill-item">Local Storage</span>
+                            <span class="skill-item">ES6 Modules</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Conceitos</h3>
+                        <div class="skill-list">
+                            <span class="skill-item">Programação Funcional</span>
+                            <span class="skill-item">Manipulação de Arrays</span>
+                            <span class="skill-item">Tratamento de Erros</span>
+                            <span class="skill-item">Debugging</span>
+                            <span class="skill-item">Performance</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <img src="../MC-logo.png" alt="Logo Mayra Cristinne" class="logo">
+            <p>&copy; 2023 Mayra Cristinne. Todos os direitos reservados.</p>
+            <a href="../index.html" class="back-link">Voltar ao Portfólio</a>
+        </div>
+    </footer>
+</body>
+</html>
