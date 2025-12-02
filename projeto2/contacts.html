@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayra Cristinne - Contacts</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="./MC-logo.png" alt="Logo Mayra Cristinne" class="logo">
+        
+            <!-- Checkbox hack para mobile -->
+            <input type="checkbox" id="menu-toggle-check" style="display: none;">
+        
+            <label for="menu-toggle-check" class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav id="nav01">
+                <ul id="mainMenu" class="menu">
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./projects.html">Projetos</a></li>
+                    <li><a href="./contacts.html">Contato</a></li>
+                    <li class="dropdown">
+                    <a href="#">☰ ▾</a>
+                        <ul class="dropdown-content">
+                            <li><a href="./articles.html">Artigos</a></li>
+                            <li><a href="./education.html">Formação</a></li>
+                            <li><a href="./workExperience.html">Experiências Anteriores</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <nav id="nav02">
+                <ul id="mainMenu" class="menu">
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./projects.html">Projetos</a></li>
+                    <li><a href="./articles.html">Artigos</a></li>
+                    <li><a href="./education.html">Formação</a></li>
+                    <li><a href="./workExperience.html">Experiências Anteriores</a></li>
+                    <li><a href="./contacts.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="contacts" class="contacts-section">
+                <div class="container">
+                    <h2>Contato</h2>
+                    <div class="contact-content">
+                        <div class="contact-info">
+                            <h3>Vamos conversar?</h3>
+                            <p>Estou aberta a oportunidades e colaborações.</p>
+                            <div class="contact-links">
+                                <a href="mailto:mayracristinne.souza@gmail.com" class="contact-link">
+                                    <span class="icon">✉️</span> mayracristinne.souza@gmail.com
+                                </a>
+                                <a href="https://linkedin.com/in/mayra-cristinne" class="contact-link" target="_blank">
+                                    <span class="icon">🔗</span> LinkedIn
+                                </a>
+                                <a href="https://github.com/mcristinne" class="contact-link" target="_blank">
+                                    <span class="icon">💻</span> GitHub
+                                </a>
+                            </div>
+                        </div>
+                        <form class="contact-form" id="contactForm">
+            <div class="form-group">
+                <label for="first-name">Nome <span class="required">*</span></label>
+                <input type="text" id="first-name" name="first-name" required>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="middle-name">Nome do Meio</label>
+                    <input type="text" id="middle-name" name="middle-name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="last-name">Último Nome <span class="required">*</span></label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="email">E-mail <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Telefone</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="company">Empresa/Organização</label>
+                <input type="text" id="company" name="company">
+            </div>
+            
+            <div class="form-group">
+                <label for="relationship">Relação com o Profissional <span class="required">*</span></label>
+                <div class="radio-group">
+                    <div class="radio-option">
+                        <input type="radio" id="contractor" name="relationship" value="contratante" required>
+                        <label for="contractor">Contratante</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="colleague" name="relationship" value="colega">
+                        <label for="colleague">Colega de Profissão</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="student" name="relationship" value="estudante">
+                        <label for="student">Estudante</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="other" name="relationship" value="outro">
+                        <label for="other">Outro</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="subject">Assunto <span class="required">*</span></label>
+                <select id="subject" name="subject" required>
+                    <option value="" disabled selected>Selecione o assunto</option>
+                    <option value="job">Oportunidade de Trabalho</option>
+                    <option value="partnership">Parceria</option>
+                    <option value="consultation">Consulta/Orçamento</option>
+                    <option value="information">Solicitação de Informações</option>
+                    <option value="other">Outro</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="urgency">Urgência</label>
+                <select id="urgency" name="urgency">
+                    <option value="baixa" selected>Baixa</option>
+                    <option value="media">Média</option>
+                    <option value="alta">Alta</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Mensagem <span class="required">*</span></label>
+                <textarea id="message" name="message" rows="6" placeholder="Descreva detalhadamente o motivo do seu contato..." required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn">Enviar Mensagem</button>
+        </form>
+                    </div>
+                </div>
+            </section>
+    </main>
+    <footer>
+        <div class="container">
+            <img src="./MC-logo.png" alt="Logo Mayra Cristinne" class="logo">
+            <p>&copy; 2023 Mayra Cristinne. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
