@@ -1,89 +1,75 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
+<html lang="en">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./stylesheet.css">
-    <title>Mayra Cristinne - Desenvolvedora</title>
-    <meta name="author" content="Mayra Cristinne">
-    <meta name="description" content="Portfólio de Mayra Cristinne, desenvolvedora em transição de carreira">
-</head>
-<body>
+    <title>MC Portfolio</title>
+    <link rel="stylesheet" href="./main-stylesheet.css" />
+  </head>
+  <body>
     <header>
-        <div class="header-container">
-            <img src="./MC-logo.png" alt="Logo Mayra Cristinne" class="logo">
-        
-            <!-- Checkbox hack para mobile -->
-            <input type="checkbox" id="menu-toggle-check" style="display: none;">
-        
-            <label for="menu-toggle-check" class="menu-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-            <nav id="nav01">
-                <ul id="mainMenu" class="menu">
-                    <li><a href="./index.html">Inicio</a></li>
-                    <li><a href="./projects.html">Projetos</a></li>
-                    <li><a href="./contacts.html">Contato</a></li>
-                    <li class="dropdown">
-                    <a href="#">☰ ▾</a>
-                        <ul class="dropdown-content">
-                            <li><a href="./articles.html">Artigos</a></li>
-                            <li><a href="./education.html">Formação</a></li>
-                            <li><a href="./workExperience.html">Experiências Anteriores</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-            <nav id="nav02">
-                <ul id="mainMenu" class="menu">
-                    <li><a href="./index.html">Inicio</a></li>
-                    <li><a href="./projects.html">Projetos</a></li>
-                    <li><a href="./articles.html">Artigos</a></li>
-                    <li><a href="./education.html">Formação</a></li>
-                    <li><a href="./workExperience.html">Experiências Anteriores</a></li>
-                    <li><a href="./contacts.html">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
+        <a href="./index.html"><img class="logo" src="./MC-logo.png"></a>
+        <nav>
+            <a class="nav-item" href="./index.html">PORTFOLIO</a>
+            <a class="nav-item" href="./about-me.html">ABOUT ME</a>
+            <a class="nav-item" href="./contacts.html">CONTACTS</a>
+            <a></a>
+            <a></a>
+
+        </nav>
     </header>
     <main>
-        <section id="profile" class="profile-section">
-            <div class="container">
-                <h1>Mayra Cristinne</h1>
-                <div class="profile-content">
-                    <div class="profile-text">
-                        <p class="intro">Olá! Sou uma desenvolvedora em transição de carreira. Adoraria ter a oportunidade de mostrar meu potencial.</p>
-                        <div class="skills">
-                            <h3>Habilidades</h3>
-                            <div class="skill-tags">
-                                <span class="skill-tag">HTML</span>
-                                <span class="skill-tag">CSS</span>
-                                <span class="skill-tag">JavaScript</span>
-                                <span class="skill-tag">Git</span>
-                                <span class="skill-tag">GitHub</span>
-                                <span class="skill-tag">Portugol</span>
-                                <span class="skill-tag">C</span>
-                                <span class="skill-tag">Java</span>
-                                <span class="skill-tag">MySQL</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!--<div class="profile-image">
-                        Espaço para foto de perfil futura
-                        <div class="placeholder-image"></div>
-                    </div>-->
+        <section class="presentation">
+
+            <span class="title-presertation">
+                <div class="h1">
+                    <span class="logo-on-presentation">MC</span>
                 </div>
-            </div>
+                <h1>Portfolio</h1>
+            </span>
+
+        <img class="banner" src="https://media.istockphoto.com/id/1176611110/vector/programming-web-banner.jpg?s=612x612&w=0&k=20&c=wKn_HtUHIF-iocMROq_yVotxTpd6objuNhZ_uqRyTC8=">
+        </section>
+
+        <br>
+
+        <section class="main-body">
+        <section class="created-by-me projects">
+            <h3>Designed and build by me</h3>
+            <p>This website is my first project done by myself without help.</p>
+            <ul>
+                <li><a href="https://mcristinne.github.io/">My Website</a></li>
+        </section>   
+        <br>
+        <section class="challenges projects">
+            <h3>Challenges</h3>
+            <p>This project was done according to templates that were given to me and I had to reproduce them without the step by step of how to do them.</p>
+            <ul>
+                <li><a href="./minimal-blog-card/index.html">Minimal Blog Card</a></li>
+                <li><a href="./business-blog-card/index.html">Business Blog Card</a></li>
+            </ul>
+        </section>
+        <br>
+        <section class="with-instructions projects">
+            <h3>Projects done with instructions</h3>
+            <p>These projects were done according to step by step activities that I did while studing Web Development.</p>
+            <ul>
+                <li><a href="./page-to-sell-barbie-movie-tickets/index.html">Page to sell Barbie movie tickets</a></li>
+                <li><a href="./cafe-menu/index.html">A cafe menu</a></li>
+            </ul>
+        </section>
         </section>
     </main>
-
     <footer>
-        <div class="container">
-            <img src="./MC-logo.png" alt="Logo Mayra Cristinne" class="logo">
-            <p>&copy; 2023 Mayra Cristinne. Todos os direitos reservados.</p>
-        </div>
+        <img class="logo" src="./MC-logo.png">
+        <nav>
+            <a class="nav-item" href="./index.html">PORTFOLIO</a>
+            <a class="nav-item" href="./about-me.html">ABOUT ME</a>
+            <a class="nav-item" href="./contacts.html">CONTACTS</a>
+            <a></a>
+            <a></a>
+        </nav>
+        <a class="author-name" href="https://mcristinne.github.io/"><span>MCristinne©</span></a>
     </footer>
-</body>
+  </body>
 </html>
